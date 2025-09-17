@@ -1,0 +1,25 @@
+{
+  "name": "yatra-darshak",
+  "version": "1.0.0",
+  "description": "Yatra Darshak",
+  "homepage": "https://github.com/Yatra-Darshak/Yatra-Darshak#readme",
+  "bugs": {
+    "url": "https://github.com/Yatra-Darshak/Yatra-Darshak/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yatra-Darshak/Yatra-Darshak.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run dev --prefix Backend\" \"npm start --prefix YatraDarshak\""
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "concurrently": "^9.2.1"
+  }
+}
