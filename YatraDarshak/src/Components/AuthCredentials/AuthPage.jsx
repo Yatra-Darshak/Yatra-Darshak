@@ -6,6 +6,7 @@ import AuthMethodSelector from "./AuthMethodSelector";
 import GoogleAuth from "./GoogleAuth";
 import AuthForm from "./AuthForm";
 import { sendOtp, verifyOtp, signup, login } from "../utils/api.js";
+import YDlogo from "../UI/YDlogo.jsx";
 
 // ------------------- useParticles Hook -------------------
 const useParticles = () => {
@@ -95,20 +96,20 @@ const SuccessToast = ({ isLogin }) => (
 );
 
 // ------------------- YDLogo -------------------
-const YDLogo = ({ size = 40 }) => (
-  <div className="relative flex items-center justify-center">
-    <div
-      className="relative flex items-center justify-center bg-gradient-to-br from-teal-700 to-teal-800 rounded-xl shadow-xl"
-      style={{ width: size, height: size }}
-    >
-      <div className="text-white font-black text-lg leading-none transform -rotate-3">
-        <span className="text-white">Y</span>
-        <span className="text-teal-200">D</span>
-      </div>
-      <div className="absolute inset-0 bg-gradient-to-br from-teal-600 to-teal-700 rounded-xl blur opacity-50 animate-pulse" />
-    </div>
-  </div>
-);
+// const YDLogo = ({ size = 40 }) => (
+//   <div className="relative flex items-center justify-center">
+//     <div
+//       className="relative flex items-center justify-center bg-gradient-to-br from-teal-700 to-teal-800 rounded-xl shadow-xl"
+//       style={{ width: size, height: size }}
+//     >
+//       <div className="text-white font-black text-lg leading-none transform -rotate-3">
+//         <span className="text-white">Y</span>
+//         <span className="text-teal-200">D</span>
+//       </div>
+//       <div className="absolute inset-0 bg-gradient-to-br from-teal-600 to-teal-700 rounded-xl blur opacity-50 animate-pulse" />
+//     </div>
+//   </div>
+// );
 
 // ------------------- Main AuthPage -------------------
 const AuthPage = () => {
@@ -241,7 +242,7 @@ const AuthPage = () => {
       <div className="relative z-10 flex items-center justify-center min-h-screen px-4">
         <div className="w-full max-w-md space-y-6">
           <div className="text-center">
-            <YDLogo size={80} />
+            <YDlogo size={60} />
             <h1 className="text-4xl font-bold text-teal-800">
               {isLogin ? "Welcome Back Explorer!" : "Start Your Journey"}
             </h1>
