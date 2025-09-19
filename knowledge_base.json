@@ -1,0 +1,28 @@
+{
+  "Bhopal": {
+    "attractions": ["Upper Lake", "Van Vihar National Park", "Sanchi Stupa", "Taj-ul-Masajid", "Bharat Bhavan"],
+    "best_time": "October to March",
+    "transport": "Well connected by trains, buses, and flights"
+  },
+  "Ujjain": {
+    "attractions": ["Mahakaleshwar Temple", "Kal Bhairav Temple", "Ram Ghat", "Sandipani Ashram"],
+    "best_time": "November to February",
+    "transport": "Direct trains and buses from Bhopal"
+  },
+  "Indore": {
+    "attractions": ["Rajwada Palace", "Lal Bagh Palace", "Sarafa Bazaar", "Kanch Mandir"],
+    "best_time": "October to February",
+    "transport": "Major railway junction and domestic airport"
+  },
+  "Pachmarhi": {
+    "attractions": ["Bee Falls", "Pandava Caves", "Dhoopgarh", "Satpura National Park"],
+    "best_time": "Throughout the year, but best in monsoon and winter",
+    "transport": "Reach Pipariya (railway station), then 50 km by road"
+  },
+  "Sanchi": {
+    "attractions": ["Great Stupa", "Ashoka Pillar", "Buddhist Monasteries"],
+    "best_time": "October to March",
+    "transport": "Located 46 km from Bhopal, accessible by road and rail"
+  }
+}
+
