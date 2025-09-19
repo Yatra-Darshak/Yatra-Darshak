@@ -13,6 +13,8 @@ import homeBg from "../assets/homebg.png";
 import robot from "../assets/robot.png";
 import Destinations from "../pages/Destinations"; // ✅ keep this
 import DiscoverPage from "../pages/Discover";
+import Chat from "./Chat/Chat"; // adjust path if needed
+
 
 const Hero = () => {
   return (
